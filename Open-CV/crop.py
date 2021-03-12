@@ -11,7 +11,7 @@ crop =image[0:50, 150:200]
 cv.imshow("resized pic", resize)
 cv.imshow("normal pic", image)#normal img
 
-cv.imshow("normal pic croped", crop)#normal img
+cv.imshow("normal pic croped", crop)
 
 
 cv.waitKey(0)
